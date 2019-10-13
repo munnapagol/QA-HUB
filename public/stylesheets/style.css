@@ -1,0 +1,122 @@
+body {
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	
+}
+.home{
+	background: linear-gradient(
+		to right top,
+		rgb(252, 44, 119) 0%,
+		rgb(108, 64, 121) 100%
+	);
+	height: 93.8vh;
+}
+
+.custom-card{
+	padding-bottom: 35px;
+}
+.dashboard{
+	background: #e6dfdf;
+	height: 100vh
+}
+.navbar.bg-light {
+    height: 70px;
+}
+.rounded {
+	padding: 30px;
+}
+
+
+/* 
+.authButtonDiv {
+	padding-right: 10px;
+}
+
+.elementMargin {
+	margin-left: 5px;
+}
+
+.loginRegisterForm {
+	background: white;
+	padding: 20px;
+	margin: 20px;
+	width: 410px;
+	margin-top: 8vh;
+}
+
+.formHeader {
+	text-align: center;
+	margin: 10px;
+	font-family: "Courier New", Courier, monospace;
+	color: black;
+}
+
+.formButton {
+	display: block;
+}
+
+.authButtonDiv a {
+	background-color: #343a40;
+}
+
+
+body a {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+ol,
+ul,
+ul.QLinks {
+	list-style: none;
+}
+
+.blogs_sec ul > li {
+	padding-bottom: 20px;
+	width: 100%;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.blogs_sec .icon_box {
+	width: 63px;
+	margin-right: 15px;
+}
+
+.blogs_sec .icon_box .top {
+	background: #e52e2f;
+	color: #fff;
+	padding: 2px 20px;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	font-size: 17px;
+	font-weight: 500;
+	text-align: center;
+}
+
+.blogs_sec .icon_box .bott {
+	background: #777377;
+	color: rgb(10, 10, 10);
+	padding: 1px 16px;
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+	font-size: 15px;
+	text-align: center;
+}
+
+.blogs_sec .right_text {
+	width: calc(100% - 63px);
+}
+
+.blogs_sec .right_text a {
+	color: black;
+	line-height: 22px;
+	font-size: 13px;
+	padding: 3px 0 0;
+	display: block;
+}
+
+.navbar.bg-dark {
+	background-color: black !important;
+} */

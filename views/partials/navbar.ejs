@@ -1,0 +1,41 @@
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+
+    <!-- Brand -->
+    <a class="navbar-brand" href="/"><span style="font-weight: bolder; font-size:30px; ">QA</span>s</a>
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <% if(oauth) {%>
+            <li class="nav-item">
+                <a class="nav-link" href="/home/dashboard">Dashboard</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Search QA</a>
+            </li>
+            <%}%>
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+            <% if(!oauth) {%>
+            <li class="nav-item">
+                <a class="nav-link" href="/auth/login">Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/auth/register">Sign Up</a>
+            </li>
+            <%}%>
+            <% if(oauth) {%>
+            <li class="nav-item">
+                <a class="nav-link" href="/auth/logout">Logout</a>
+            </li>
+            <%}%>
+        </ul>
+    </div>
+</nav>
