@@ -24,7 +24,26 @@ body {
 .rounded {
 	padding: 30px;
 }
+.list-group-item {
+	text-align: left;
+    padding-left: 30px;
+}
+a {
+    color:black;
+}
 
+.pro-pic{
+	height: 200px;
+	width: 200px;
+	margin: 10px
+}
+.single-project{
+	margin-bottom: 15px
+}
+
+.profile-card{
+	height: 90vh;
+}
 
 /* 
 .authButtonDiv {
