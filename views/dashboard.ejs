@@ -1,138 +1,199 @@
 <div class="dashboard row">
     <div class="container-fluid row">
-
         <div class="col-md-3">
             <div class="card profile-card">
                 <div class="card-header">
                     <h4>Profile</h4>
                 </div>
-
                 <div class="card-body">
                     <center>
-                        <img src="/images/profile.jpg" class="rounded-circle pro-pic" />
+                        <img src="/images/profile.jpg" class="rounded pro-pic" />
                     </center>
-
-
                     <ul class="list-group text-center">
-                        <li class="list-group-item "> <a href="#">
-                                <i class="fa fa-id-card"></i>
-                                Name </a></li>
-
-                        <li class="list-group-item "> <a href="#">
-                                <i class="fa fa-crop"></i>
-                                Designation </a></li>
-
-                        <li class="list-group-item "> <a href="#">
-                                <i class="fa fa-users"></i>
-                                Team </a></li>
-
+                        <li class="list-group-item ">
+                            <a href="#">
+                                <i class="fa fa-id-card"></i> Name </a>
+                        </li>
+                        <li class="list-group-item ">
+                            <a href="#">
+                                <i class="fa fa-crop"></i> Designation </a>
+                        </li>
+                        <li class="list-group-item ">
+                            <a href="#">
+                                <i class="fa fa-users"></i> Team </a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
-
-
         <div class="col-md-9">
 
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-12">
                     <div class="card">
 
-
                         <div class="card-body">
-                            <h4>Projects</h4>
-                            <hr>
-
-                            <div class="card single-project">
-
-
-                                <div class="card-body">
-                                    <h5>Project Title</h5>
-                                    <p>Details</p>
-                                </div>
-
-
-                            </div>
-
-
-                            <div class="card single-project">
-
-
-                                <div class="card-body">
-                                    <h5>Project Title</h5>
-                                    <p>Details</p>
-                                </div>
-
-
-                            </div>
-
-
-                            <div class="card single-project">
-
-
-                                <div class="card-body">
-                                    <h5>Project Title</h5>
-                                    <p>Details</p>
-                                </div>
-
-
-                            </div>
-
+                            <button type="button" class="btn btn-primary float-right" data-toggle="modal"
+                                data-target="#createProject">+ Create Project</button>
                         </div>
-
-                    </div>
-                </div>
-
-
-                <div class="col-md-6">
-                    <div class="card">
-
-
-                        <div class="card-body">
-                            <h4>Shared Projects</h4>
-                            <hr>
-
-                            <div class="card single-project">
-
-
-                                <div class="card-body">
-                                    <h5>Project Title</h5>
-                                    <p>Details</p>
-                                </div>
-
-
-                            </div>
-
-
-                            <div class="card single-project">
-
-
-                                <div class="card-body">
-                                    <h5>Project Title</h5>
-                                    <p>Details</p>
-                                </div>
-
-
-                            </div>
-
-
-                            <div class="card single-project">
-
-
-                                <div class="card-body">
-                                    <h5>Project Title</h5>
-                                    <p>Details</p>
-                                </div>
-
-
-                            </div>
-
-                        </div>
-
                     </div>
                 </div>
             </div>
+            <br>
 
+            <div class="row">
+                <div class="col-md-6">
+
+                    <div class="card ">
+
+                        <div class="card-body">
+                            <h4>My Projects</h4>
+                            <hr>
+
+                            <div class="card single-project">
+                                <div class="card-body">
+                                    <h5>Project Title</h5>
+                                    <h6>Creator</h6>
+                                    <p>Details</p>
+                                </div>
+
+                                <div class="card-footer">
+                                    <div class="row-fluid">
+                                        <a href="#" class="btn btn-sm btn-outline-success float-right"
+                                            data-toggle="modal" data-target="#addCollaborator"><i
+                                                class="fa fa-cogs"></i>
+                                            Add Collaborator</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+
+                            <div class="card single-project">
+                                <div class="card-body">
+                                    <h5>Project Title</h5>
+                                    <h6>Creator</h6>
+                                    <p>Details</p>
+                                </div>
+
+                                <div class="card-footer">
+                                    <div class="row-fluid">
+                                        <a href="#" class="btn btn-sm btn-outline-success float-right"
+                                            data-toggle="modal" data-target="#addCollaborator"><i
+                                                class="fa fa-cogs"></i>
+                                            Add Collaborator</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4>Shared Projects</h4>
+                            <hr>
+                            <div class="card single-project">
+                                <div class="card-body">
+                                    <h5>Project Title</h5>
+                                    <h6>Creator</h6>
+                                    <p>Details</p>
+                                </div>
+                            </div>
+                            <div class="card single-project">
+                                <div class="card-body">
+                                    <h5>Project Title</h5>
+                                    <h6>Creator</h6>
+                                    <p>Details</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- The Modal -->
+<div class="modal" id="createProject">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">New Project</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+
+                <form action="#">
+                    <div class="form-group">
+                        <label for="email">Project Name</label>
+                        <input type="email" class="form-control" id="project_name" name="project_name">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Details:</label>
+                        <textarea class="form-control" id="details" name="details" rows="7"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- The Modal -->
+<div class="modal" id="addCollaborator">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">New Project</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+
+                <form action="#">
+                    <div class="form-group">
+                        <label for="email">Collaborator Name</label>
+                        <input type="email" class="form-control" id="collaborator_name" name="collaborator_name">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
 
         </div>
     </div>
