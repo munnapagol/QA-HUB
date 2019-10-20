@@ -1,2 +1,2 @@
-*.C linguist-language=JavaScript
-*.H linguist-language=JavaScript
+*.js linguist-language=Javascript
+*.json linguist-language=Javascript
