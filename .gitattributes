@@ -1,2 +1,1 @@
-*.js linguist-language=Javascript
-*.json linguist-language=Javascript
+*.ejs linguist-language=JavaScript
