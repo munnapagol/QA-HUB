@@ -15,6 +15,7 @@ const expressLayouts = require('express-ejs-layouts');
 const indexRouter = require("./routes/index");
 const authLocalRouter = require("./routes/authLocal");
 const homeRouter = require("./routes/home");
+const qaRouter = require("./routes/qa");
 
 const app = express();
 
@@ -62,6 +63,7 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use("/", indexRouter);
 app.use("/auth", authLocalRouter);
 app.use("/home", homeRouter);
+app.use("/qa", qaRouter);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

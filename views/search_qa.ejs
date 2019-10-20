@@ -1,48 +1,195 @@
-<div class="dashboard row">
-    <div class="container-fluid row">
-        <div class="col-md-8 mx-auto">
-            <div class="card">
+<div class="dashboard">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
 
-                <div class="card-body">
-
-                    <h4>Title</h4>
-                    <p>Asked: Today <span></span></p>
-
-                    <p>I am trying to find the relevant parts of Standard that explain how the above two simplifications
-                        work. I've looked at [basic.lookup] and grepped for trailing-return, but couldn't find anything
-                        straightforward that explained how the above transformations work.
-
-                        Have I missed it? Here</p>
-
+                    <div class="card-body">
+                        Profile Informations
+                    </div>
                 </div>
 
-                <hr>
-                <div class="card-body">
+            </div>
 
-                    <h4>Title</h4>
-                    <p>Asked: Today <span></span></p>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>What is the difference between window, screen, and document in Javascript?</h4>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-12 mx-auto">
+                                <p class="text-justify"> I am trying to find the relevant parts of Standard that explain
+                                    how the above two simplifications work. I've looked at [basic.lookup] and grepped
+                                    for trailing-return, but couldn't find anything straightforward that explained how
+                                    the above transformations work. Have I missed it? Here
+                                </p>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="row">
+                                            <div class="col-md-5">
 
-                    <p>I am trying to find the relevant parts of Standard that explain how the above two simplifications
-                        work. I've looked at [basic.lookup] and grepped for trailing-return, but couldn't find anything
-                        straightforward that explained how the above transformations work.
+                                            </div>
+                                            <div class="col-md-5">
 
-                        Have I missed it? Here</p>
+                                            </div>
+                                            <div class="col-md-2 float-right">
+                                                Asked Motiur
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-5">
+
+                                            </div>
+                                            <div class="col-md-5">
+
+                                            </div>
+                                            <div class="col-md-2 float-right">
+                                                <img src="/images/profile.jpg" class="img-thumbnail" alt="img"
+                                                    width="50px">
+                                                Munna
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
 
 
-                    <hr>
-                    <form action="#">
 
-                        <div class="form-group">
-                            <label for="pwd">Details:</label>
-                            <textarea class="form-control" id="details" name="details" rows="4"></textarea>
+
+                                <div class="card" style="margin-bottom: 10px">
+
+                                    <div class="card-body">
+
+                                        <div class="row">
+                                            <div class="col-md-10 mx-auto">
+                                                <div class="row">
+                                                    <p class="text-justify">I am trying to find the relevant parts of
+                                                        Standard that explain how the above two simplifications work.
+                                                        I've looked at [basic.lookup] and grepped for trailing-return,
+                                                        but couldn't find anything straightforward that explained how
+                                                        the above transformations work. Have I missed it? Here
+                                                    </p>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="row">
+                                                            <div class="col-md-5">
+
+                                                            </div>
+                                                            <div class="col-md-5">
+
+                                                            </div>
+                                                            <div class="col-md-2 float-right">
+                                                                Answered Munna
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="row">
+                                                            <div class="col-md-5">
+
+                                                            </div>
+                                                            <div class="col-md-5">
+
+                                                            </div>
+                                                            <div class="col-md-2 float-right">
+                                                                <img src="/images/profile.jpg" class="img-thumbnail"
+                                                                    alt="img" width="50px">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-md-12 mx-auto">
+                                        <form action="#">
+                                            <div class="form-group">
+                                                <label for="pwd">Answer:</label>
+                                                <textarea class="form-control" id="summernote" name="details"
+                                                    rows="7"></textarea>
+                                            </div>
+                                            <button type="submit" class="btn btn-primary">Submit</button>
+                                        </form>
+                                    </div>
+                                </div>
+
+                                <!-- 
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12 mx-auto">
+                                    <p class="text-justify">I am trying to find the relevant parts of Standard
+                                        that explain how the above two
+                                        simplifications
+                                        work. I've looked at [basic.lookup] and grepped for trailing-return, but
+                                        couldn't
+                                        find
+                                        anything
+                                        straightforward that explained how the above transformations work.
+
+                                        Have I missed it? Here</p>
+
+                                    <p class="float-right text-success">Answered By: Motiur <span></span></p>
+
+                                </div>
+                            </div> -->
+
+                            </div>
                         </div>
+                    </div>
+                </div>
+            </div>
 
-                        <button type="submit" class="btn btn-primary float-right">Submit</button>
-                    </form>
+            <div class="col-md-3">
+                <div class="card">
 
+                    <div class="card-body">
+                        <!-- Top Questions -->
+                        <button class="btn btn-sm btn-primary float-right" data-toggle="modal"
+                            data-target="#myModal">Ask Question</button>
+                    </div>
                 </div>
             </div>
         </div>
-
     </div>
-</div>
+
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Question</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+
+                    <form action="#">
+                        <div class="form-group">
+                            <label for="email">Title</label>
+                            <input type="email" class="form-control" id="project_name" name="project_name">
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">Details:</label>
+                            <textarea class="form-control" id="details" name="details" rows="7"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>

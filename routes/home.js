@@ -8,8 +8,5 @@ router.get('/dashboard', ensureAuth, function (req, res, next) {
     res.render('dashboard', { oauth: true });
 });
 
-router.get('/search-qa', ensureAuth, function (req, res, next) {
-    res.render('search_qa', { oauth: true });
-});
 
 module.exports = router;
